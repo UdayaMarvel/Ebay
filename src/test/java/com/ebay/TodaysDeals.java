@@ -88,8 +88,7 @@ public void user_chooses_the_dob() {
 
 @When("user select gender")
 public void user_select_gender() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
+   driver.close();
 }
 
 @When("user clicks on create account")
