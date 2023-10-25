@@ -60,24 +60,7 @@ public void user_enters_the_last_name(String lname) throws InterruptedException,
   Properties p = new Properties();
   p.load(f1);
   String user = p.getProperty("username");
-  
-  
-  
-  
   System.out.println(user);
-  
-  
-  
-  
-//  FileInputStream f1 = new FileInputStream(f);
-//  Properties p = new Properties();
-//  p.load(f1);
-//  String user = p.getProperty("username");
-//  
-//  
-//  
-//  
-//  System.out.println(user);
   
   p.setProperty("value", "qwerty");
  FileOutputStream f2 = new FileOutputStream(f);
@@ -105,8 +88,7 @@ public void user_chooses_the_dob() {
 
 @When("user select gender")
 public void user_select_gender() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
+   driver.close();
 }
 
 @When("user clicks on create account")
