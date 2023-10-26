@@ -9,6 +9,8 @@ public class Guru {
 			char sm =  s.charAt(i);
 			System.out.println(sm);
 			
+		//	System.out.println(s);
+			
 		}
 	}
 }
