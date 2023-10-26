@@ -1,5 +1,9 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Built-By: Martin Devaprasad
 Build-Jdk: 17.0.7
+=======
+Build-Jdk-Spec: 17
+>>>>>>> 4dd3ac6d8df0b66e4ff9ad7c659a84fec6249bb2
 Created-By: Maven Integration for Eclipse
 
