@@ -45,6 +45,7 @@ public static void main(String[] args) throws ClassNotFoundException, SQLExcepti
 		}
 		else if(!href.startsWith("https://www.flipkart.com")) {
 			System.out.println("Links not related to our domain"+ href);
+                        //System.out.println("Links not related to our domain"+ href);
 		}
 		else {
 		http =	(HttpURLConnection) (new URL(href).openConnection());
